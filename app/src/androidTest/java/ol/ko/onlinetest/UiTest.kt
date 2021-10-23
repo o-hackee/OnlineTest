@@ -19,7 +19,7 @@ class UiTest {
         // e.g. By.text("Off") wouldn't work, By.textContains("Off") seems a bit too loose,
         // hence ending up with regex
 
-        // runned on LowRes/Pixel2, API 28/29. LowRes 28 fails since mobile date switch doesn't fit into the first screen
+        // run on LowRes/Pixel2, API 28/29. LowRes 28 fails since mobile date switch doesn't fit into the first screen
 
         val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
         assert(device.openQuickSettings())
