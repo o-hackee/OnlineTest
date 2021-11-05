@@ -11,4 +11,6 @@ On physical device:
 > Skipped triggering the test execution: Incompatible device/OS combination
 > Pixel 2, Google | Android 9.x, API Level 28 (Pie) | English | Portrait
 > Skipped triggering the test execution: Incompatible device/OS combination
-what does that mean?
+what does that mean? - use Pixel 4
+
+Settings.Panel.ACTION_INTERNET_CONNECTIVITY would be another option, didn't work on API level 30 so far for me
