@@ -14,3 +14,5 @@ On physical device:
 what does that mean? - use Pixel 4
 
 Settings.Panel.ACTION_INTERNET_CONNECTIVITY would be another option, didn't work on API level 30 so far for me
+
+UPD: added connectivity check - and the network was not actually restored
